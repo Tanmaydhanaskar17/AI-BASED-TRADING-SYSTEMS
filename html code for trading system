@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>AI Trading Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>AI Trading System</h1>
+</header>
+
+<section class="dashboard">
+
+    <!-- Chart -->
+    <div class="card">
+        <h2>Price Prediction</h2>
+        <canvas id="chart"></canvas>
+    </div>
+
+    <!-- Performance -->
+    <div class="card">
+        <h2>Performance</h2>
+        <p>Total Return: <span id="return">0%</span></p>
+        <p>Win Rate: <span id="winrate">0%</span></p>
+    </div>
+
+    <!-- Signals -->
+    <div class="card">
+        <h2>Trade Signals</h2>
+        <ul id="signals"></ul>
+    </div>
+
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
