@@ -1,4 +1,4 @@
-# AI-BASED-TRADING-SYSTEMS
+# AI-BASED-TRADING-SYSTEMS also with the help of machine learning alogorithm
 
  This study investigates the impact of Artificial Intelligence (AI) on equity share trading, with a specific
 focus on comparing market efficiency and investor behaviour before and after AI integration. Employing a
@@ -10,3 +10,4 @@ changes among investors, including increased reliance on AI-driven platforms. Ke
 simplifying AI tools, enhancing transparency, and implementing educational initiatives to support diverse
 investor groups. These insights contribute to the understanding of AI's transformative role in equity trading and
 provide actionable solutions to optimize its adoption
+
