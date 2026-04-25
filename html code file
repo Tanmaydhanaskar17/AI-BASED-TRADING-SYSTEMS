@@ -1,0 +1,66 @@
+HTML CODE for this project
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Trading Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>AI Trading System</h1>
+</header>
+
+<div class="container">
+
+    <!-- Portfolio Section -->
+    <div class="card">
+        <h2>Portfolio</h2>
+        <p>Balance: ₹1,25,000</p>
+        <p>Profit/Loss: +₹8,500</p>
+    </div>
+
+    <!-- AI Prediction -->
+    <div class="card">
+        <h2>AI Prediction</h2>
+        <p>Stock: RELIANCE</p>
+        <p>Signal: <span class="buy">BUY</span></p>
+        <p>Confidence: 87%</p>
+    </div>
+
+    <!-- Market Data -->
+    <div class="card">
+        <h2>Market Data</h2>
+        <table>
+            <tr>
+                <th>Stock</th>
+                <th>Price</th>
+                <th>Change</th>
+            </tr>
+            <tr>
+                <td>TCS</td>
+                <td>₹3,500</td>
+                <td class="up">+2.3%</td>
+            </tr>
+            <tr>
+                <td>INFY</td>
+                <td>₹1,450</td>
+                <td class="down">-1.1%</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Trade Execution -->
+    <div class="card">
+        <h2>Execute Trade</h2>
+        <input type="text" placeholder="Stock Name">
+        <input type="number" placeholder="Quantity">
+        <button>Buy</button>
+        <button class="sell">Sell</button>
+    </div>
+
+</div>
+
+</body>
+</html>
