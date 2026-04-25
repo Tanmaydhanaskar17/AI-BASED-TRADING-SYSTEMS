@@ -1,23 +1,24 @@
 1. Introduction
 
-The research paper focuses on the growing role of Artificial Intelligence (AI) in financial markets, especially in algorithmic trading. Traditional trading strategies rely heavily on human judgment and basic technical indicators, which often fail in highly volatile and complex markets.
+Artificial intelligence (AI) is transforming the financial industry, primarily through advancements in trading and
+investment methodologies. AI facilitates data analysis, trend predictions, and decision-making capabilities
+through machine learning and neural networks. These technologies efficiently process vast quantities of data,
+enabling traders to rapidly identify trends and make informed decisions. AI-based algorithms enhance the
+execution of trades and portfolio management by improving the accuracy of asset allocation and risk assessment.
+However, artificial intelligence presents several challenges, including potential impacts on market volatility,
+ethical considerations, and regulatory complexities. This paper examines the role of AI in financial trading, its
+advantages, and associated risks
 
-This paper proposes an AI-driven trading framework that combines:
 
-Machine Learning models
-Technical indicators
-Risk management techniques
-
-The goal is to improve prediction accuracy, profitability, and trading efficiency.
-
-  2. Objectives of the Study
-
-The main objectives of the research are:
-
-To develop an intelligent trading system using AI
-To combine multiple technical indicators for better decision-making
-To reduce risks using automated risk management strategies
-To compare AI-based trading performance with traditional methods
+2.Statement of the problem
+The integration of Artificial Intelligence (AI) in equity share trading has transformed market efficiency and
+investor behavior, while simultaneously presenting significant challenges. A primary concern is the assessment
+of AI's impact on market dynamics and the accuracy of trading decisions. There exists a necessity to comprehend
+the behavioral modifications in investors who utilize AI-driven platforms. Furthermore, evaluating the influence
+of AI on trading confidence and satisfaction is of paramount importance. Addressing the complexities of AI tools
+and their accessibility to diverse investor groups remains a critical issue. This investigation aims to compare
+market efficiency before and after AI integration, analyze investor behavior changes, and propose solutions to
+enhance trading experiences with AI
 
 3. Methodology
 
@@ -64,3 +65,65 @@ This helps to:
 
 Minimize losses
 Protect capital during market fluctuations
+
+6.1.Demographic Profile
+Demographic Particulars No Of Response Percentage
+Age 18–25
+26–35
+36–50
+Above 50
+Total
+55
+21
+20
+4
+100
+55
+21
+20
+4
+100
+Gender Male
+Female
+Total
+48
+52
+100
+48
+52
+100
+Educational
+Qualification
+High school
+Bachelor’s degree
+Master’s degree
+Doctorate
+Total
+5
+58
+31
+6
+100
+5
+58
+31
+6
+100
+Annual Income Less than 2,50,000
+2,50,000-5,00,000
+5,00,001-10,00,000
+10,00,001-15,00,000
+More than 15,00,000
+Total
+38
+25
+27
+6
+4
+100
+38
+25
+27
+6
+4
+100
