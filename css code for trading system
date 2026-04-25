@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #0f172a;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #020617;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+#signals li {
+    padding: 5px;
+}
+
+.buy {
+    color: #22c55e;
+}
+
+.sell {
+    color: #ef4444;
+}
