@@ -1,0 +1,66 @@
+1. Introduction
+
+The research paper focuses on the growing role of Artificial Intelligence (AI) in financial markets, especially in algorithmic trading. Traditional trading strategies rely heavily on human judgment and basic technical indicators, which often fail in highly volatile and complex markets.
+
+This paper proposes an AI-driven trading framework that combines:
+
+Machine Learning models
+Technical indicators
+Risk management techniques
+
+The goal is to improve prediction accuracy, profitability, and trading efficiency.
+
+  2. Objectives of the Study
+
+The main objectives of the research are:
+
+To develop an intelligent trading system using AI
+To combine multiple technical indicators for better decision-making
+To reduce risks using automated risk management strategies
+To compare AI-based trading performance with traditional methods
+
+3. Methodology
+
+The research uses a structured approach to design the AI trading system.
+
+📊 a) Data Collection
+Historical stock market data is used
+Includes:
+Stock prices
+Volume
+Market trends
+🤖 b) Machine Learning Models
+
+The system applies machine learning algorithms such as:
+
+Supervised learning models
+Predictive models for price movement
+
+These models learn patterns from past data to predict:
+
+Future stock prices
+Buy/Sell signals
+📈 c) Hybrid Technical Indicators
+
+Instead of relying on a single indicator, the paper combines multiple indicators like:
+
+Moving Averages
+RSI (Relative Strength Index)
+MACD (Moving Average Convergence Divergence)
+
+👉 This hybrid approach improves accuracy because:
+
+One indicator alone can give false signals
+Multiple indicators confirm trends more reliably
+⚠️ d) Risk Management System
+
+A major contribution of this paper is its focus on risk control. The system includes:
+
+Stop-loss mechanisms
+Position sizing
+Portfolio balancing
+
+This helps to:
+
+Minimize losses
+Protect capital during market fluctuations
