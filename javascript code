@@ -1,0 +1,61 @@
+// Fake market data (simulating AI predictions)
+const prices = [100, 105, 102, 110, 115, 120, 118, 125];
+const predictions = [102, 107, 104, 112, 117, 122, 121, 128];
+
+// Generate Buy/Sell signals
+const signals = [];
+
+for (let i = 0; i < prices.length; i++) {
+    if (predictions[i] > prices[i]) {
+        signals.push("BUY");
+    } else {
+        signals.push("SELL");
+    }
+}
+
+// Display signals
+const signalList = document.getElementById("signals");
+
+signals.forEach(sig => {
+    const li = document.createElement("li");
+    li.textContent = sig;
+
+    li.classList.add(sig === "BUY" ? "buy" : "sell");
+    signalList.appendChild(li);
+});
+
+// Performance calculation
+let wins = 0;
+
+signals.forEach((sig, i) => {
+    if (sig === "BUY" && prices[i + 1] > prices[i]) wins++;
+});
+
+const winRate = (wins / signals.length) * 100;
+document.getElementById("winrate").innerText = winRate.toFixed(2) + "%";
+
+// Return calculation
+const totalReturn = ((prices[prices.length - 1] - prices[0]) / prices[0]) * 100;
+document.getElementById("return").innerText = totalReturn.toFixed(2) + "%";
+
+// Chart
+const ctx = document.getElementById('chart');
+
+new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: prices.map((_, i) => i + 1),
+        datasets: [
+            {
+                label: 'Actual Price',
+                data: prices,
+                borderColor: 'blue'
+            },
+            {
+                label: 'AI Prediction',
+                data: predictions,
+                borderColor: 'red'
+            }
+        ]
+    }
+});
