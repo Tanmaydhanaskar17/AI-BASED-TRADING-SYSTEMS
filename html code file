@@ -1,65 +1,89 @@
-HTML CODE for this project
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>AI Trading Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>AI in Equity Trading Analysis</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    <h1>AI Trading System</h1>
-</header>
+<h1>AI Integration in Equity Share Trading</h1>
 
-<div class="container">
+<!-- AI Tools Section -->
+<div class="card">
+    <h2>AI Tools Used</h2>
+    <ul>
+        <li>Robo-advisors</li>
+        <li>Algorithmic Trading</li>
+        <li>Predictive Analytics</li>
+    </ul>
+</div>
 
-    <!-- Portfolio Section -->
-    <div class="card">
-        <h2>Portfolio</h2>
-        <p>Balance: ₹1,25,000</p>
-        <p>Profit/Loss: +₹8,500</p>
-    </div>
+<!-- Market Efficiency Before AI -->
+<div class="card">
+    <h2>Before AI Integration</h2>
+    <table>
+        <tr>
+            <th>Factor</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>Manual Analysis</td>
+            <td>36%</td>
+        </tr>
+        <tr>
+            <td>Basic Platforms</td>
+            <td>47%</td>
+        </tr>
+        <tr>
+            <td>Advisory Services</td>
+            <td>17%</td>
+        </tr>
+    </table>
+</div>
 
-    <!-- AI Prediction -->
-    <div class="card">
-        <h2>AI Prediction</h2>
-        <p>Stock: RELIANCE</p>
-        <p>Signal: <span class="buy">BUY</span></p>
-        <p>Confidence: 87%</p>
-    </div>
+<!-- Market Efficiency After AI -->
+<div class="card">
+    <h2>After AI Integration</h2>
+    <table>
+        <tr>
+            <th>Improvement</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>Faster Decision Making</td>
+            <td>49%</td>
+        </tr>
+        <tr>
+            <td>Increased Accuracy</td>
+            <td>37%</td>
+        </tr>
+        <tr>
+            <td>Reduced Cost</td>
+            <td>14%</td>
+        </tr>
+    </table>
+</div>
 
-    <!-- Market Data -->
-    <div class="card">
-        <h2>Market Data</h2>
-        <table>
-            <tr>
-                <th>Stock</th>
-                <th>Price</th>
-                <th>Change</th>
-            </tr>
-            <tr>
-                <td>TCS</td>
-                <td>₹3,500</td>
-                <td class="up">+2.3%</td>
-            </tr>
-            <tr>
-                <td>INFY</td>
-                <td>₹1,450</td>
-                <td class="down">-1.1%</td>
-            </tr>
-        </table>
-    </div>
-
-    <!-- Trade Execution -->
-    <div class="card">
-        <h2>Execute Trade</h2>
-        <input type="text" placeholder="Stock Name">
-        <input type="number" placeholder="Quantity">
-        <button>Buy</button>
-        <button class="sell">Sell</button>
-    </div>
-
+<!-- Investor Behaviour -->
+<div class="card">
+    <h2>Investor Behaviour</h2>
+    <table>
+        <tr>
+            <th>Category</th>
+            <th>Percentage</th>
+        </tr>
+        <tr>
+            <td>Retail Investors</td>
+            <td>61%</td>
+        </tr>
+        <tr>
+            <td>Institutional Investors</td>
+            <td>39%</td>
+        </tr>
+    </table>
 </div>
 
 </body>
