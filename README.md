@@ -22,3 +22,11 @@ They improve trading by:
 
 The paper also highlights that machine learning models (like predictive analytics and algorithmic trading systems) help in optimizing portfolio management and reducing manual effort, but still require human oversight due to risks, complexity, and ethical concerns.
 
+
+
+
+<img width="531" height="465" alt="Screenshot 2026-04-25 190440" src="https://github.com/user-attachments/assets/b9c72452-f86b-4ab9-9b12-49d33db8799b" />
+
+
+
+
