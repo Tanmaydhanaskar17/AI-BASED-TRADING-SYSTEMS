@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Equity Trading Analysis</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background: #0f172a;
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      color: #38bdf8;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+
+    .box {
+      border: 1px solid #444;
+      padding: 20px;
+      margin: 15px;
+      width: 300px;
+      border-radius: 10px;
+      background: #1e293b;
+    }
+
+    select, button, input {
+      padding: 10px;
+      margin-top: 10px;
+      width: 80%;
+    }
+
+    .highlight {
+      color: #22c55e;
+      font-weight: bold;
+    }
+
+    .bad {
+      color: #ef4444;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>AI Based Equity Trading System</h1>
+
+<!-- USER INPUT -->
+<div class="box">
+  <h2>Investor Profile</h2>
+
+  <select id="experience">
+    <option value="low">Less than 1 year</option>
+    <option value="medium">1–5 years</option>
+    <option value="high">More than 5 years</option>
+  </select>
+
+  <button onclick="analyze()">Generate Analysis</button>
+</div>
+
+<!-- 🔥 NEW ADDED SECTION (Stock Prediction) -->
+<div class="box">
+  <h2>Stock Prediction (Demo AI)</h2>
+
+  <input type="text" id="stock" placeholder="Enter Stock (e.g. TCS)">
+  <button onclick="predictStock()">Get Buy/Sell Signal</button>
+
+  <p id="stockResult"></p>
+</div>
+
+<!-- RESULTS -->
+<div class="container">
+
+  <!-- BEFORE AI -->
+  <div class="box">
+    <h2>Before AI</h2>
+    <p>Confidence: <span class="bad">Moderate (58%)</span></p>
+    <p>Decision Speed: <span class="bad">Slow</span></p>
+    <p>Returns: <span class="bad">5% – 10%</span></p>
+    <p>Challenges:</p>
+    <ul>
+      <li>Time-consuming analysis (56%)</li>
+      <li>Lack of real-time data (31%)</li>
+      <li>High costs (13%)</li>
+    </ul>
+  </div>
+
+  <!-- AFTER AI -->
+  <div class="box">
+    <h2>After AI</h2>
+    <p>Confidence: <span class="highlight">Improved (45%+)</span></p>
+    <p>Decision Speed: <span class="highlight">Fast</span></p>
+    <p>Accuracy: <span class="highlight">High</span></p>
+    <p>Improvements:</p>
+    <ul>
+      <li>Faster decisions (49%)</li>
+      <li>Increased accuracy (37%)</li>
+      <li>Reduced cost (14%)</li>
+    </ul>
+  </div>
+
+  <!-- RECOMMENDATION -->
+  <div class="box">
+    <h2>AI Recommendation</h2>
+    <p id="recommendation">Click button to get suggestion</p>
+  </div>
+
+</div>
+
+<script>
+
+function analyze() {
+  let exp = document.getElementById("experience").value;
+  let result = "";
+
+  if (exp === "low") {
+    result = "Use Robo-Advisors → Low risk, beginner friendly strategy";
+  }
+  else if (exp === "medium") {
+    result = "Use Predictive Analytics → Balanced strategy with moderate risk";
+  }
+  else {
+    result = "Use Algorithmic Trading → High speed & high return strategy";
+  }
+
+  document.getElementById("recommendation").innerHTML = result;
+}
+
+// 🔥 NEW ADDED FUNCTION (Buy/Sell AI Demo)
+function predictStock() {
+
+  let stock = document.getElementById("stock").value.toUpperCase();
+
+  let buyStocks = ["TCS", "INFY", "RELIANCE"];
+  let sellStocks = ["YESBANK", "IDEA", "PAYTM"];
+
+  let result = "";
+
+  if (buyStocks.includes(stock)) {
+    result = "📈 AI Suggestion: BUY " + stock + " (High growth potential)";
+  }
+  else if (sellStocks.includes(stock)) {
+    result = "📉 AI Suggestion: SELL " + stock + " (High risk detected)";
+  }
+  else {
+    result = "⚠️ AI Suggestion: HOLD " + stock + " (Insufficient data)";
+  }
+
+  document.getElementById("stockResult").innerHTML = result;
+}
+
+</script>
+
+</body>
+</html>
