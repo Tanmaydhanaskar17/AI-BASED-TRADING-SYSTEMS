@@ -28,5 +28,17 @@ The paper also highlights that machine learning models (like predictive analytic
 <img width="531" height="465" alt="Screenshot 2026-04-25 190440" src="https://github.com/user-attachments/assets/b9c72452-f86b-4ab9-9b12-49d33db8799b" />
 
 
+<img width="1330" height="434" alt="Screenshot 2026-05-06 192011" src="https://github.com/user-attachments/assets/91fdeb62-d2ef-4dac-a65b-e1f998ab0136" />
+
+
+<img width="1156" height="411" alt="Screenshot 2026-05-06 192022" src="https://github.com/user-attachments/assets/27ce90e0-6c7d-444a-a351-d5988ffb754e" />
+
+<img width="1419" height="511" alt="Screenshot 2026-05-06 192034" src="https://github.com/user-attachments/assets/23c66678-1698-4858-8f3c-5c1c89a425d2" />
+
+<img width="974" height="266" alt="Screenshot 2026-05-06 192043" src="https://github.com/user-attachments/assets/c3f303a5-1081-4b09-9993-6a81df10213e" />
+
+
+
+
 
 
